@@ -1,0 +1,121 @@
+﻿@*@model IEnumerable<HomeTutor.Models.Teacher>*@
+@using HomeTutor;
+@model HomeTutor.Models.InfoViewModel
+
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>teacherInfo</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    @*<tr>
+        <th>
+            @Html.DisplayNameFor(model => model.city.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LevelOfTaught)
+            
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ImagePath)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Qualification)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Institute)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SecondQualification)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SecondInstitute)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AboutMe)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TutoringType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SkypId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Expertise)
+        </th>
+        <th></th>
+    </tr>*@
+
+    @foreach (var teachers in Model.Teachers)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.city.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.LevelOfTaught)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.ImagePath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.Qualification)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.Institute)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.SecondQualification)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.SecondInstitute)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.AboutMe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.TutoringType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.SkypId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => teachers.Expertise)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = teachers.TeacherId }) |
+                @Html.ActionLink("Details", "Details", new { id = teachers.TeacherId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = teachers.TeacherId })
+            </td>
+        </tr>
+    }
+
+</table>

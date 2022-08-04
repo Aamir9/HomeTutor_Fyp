@@ -1,0 +1,363 @@
+﻿@model HomeTutor.Models.Tutor
+
+@{
+    
+}
+
+
+
+<div class="row m-t-40">
+
+    <div class="col-md-2">
+
+    </div>
+
+
+
+
+
+   
+    <div class="col-md-8">
+        <div class="wholeFm">
+
+
+            @using (Html.BeginForm("Create","Tutors",FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <h3 class="tittle bggreen white" >FIRST TIME HERE? SIGN UP NOW!</h3>
+                <div class="form-horizontal">
+                    
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="row">
+
+                        @Html.HiddenFor(model => model.TutorId, new { htmlAttributes = new { @id = "tutorId" , @name = "TutorId" } })
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "" })
+
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @placeholder = "Display Name for Account" } })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "" })
+
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @placeholder = "Enter Your Email Address" } })
+                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label " })
+
+                                @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" ,@placeholder="Enter Your Cell Number" } })
+                                @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label " })
+
+                                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" ,@placeholder="Enter Your Pass" } })
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Qualification, htmlAttributes: new { @class = "control-label " })
+
+                                @Html.EditorFor(model => model.Qualification, new { htmlAttributes = new { @class = "form-control" ,@placeholder="Degree Title"} })
+                                @Html.ValidationMessageFor(model => model.Qualification, "", new { @class = "text-danger" })
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Institute, htmlAttributes: new { @class = "control-label" })
+
+                                @Html.EditorFor(model => model.Institute, new { htmlAttributes = new { @class = "form-control" ,@placeholder="Enter Collage/University Name" } })
+                                @Html.ValidationMessageFor(model => model.Institute, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.SecondQualification, htmlAttributes: new { @class = "control-label " })
+
+                                @Html.EditorFor(model => model.SecondQualification, new { htmlAttributes = new { @class = "form-control", @placeholder = "Degree Title" } })
+                                @Html.ValidationMessageFor(model => model.SecondQualification, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.SecondInstitute, htmlAttributes: new { @class = "control-label " })
+
+                                @Html.EditorFor(model => model.SecondInstitute, new { htmlAttributes = new { @class = "form-control", @placeholder = "Enter Collage/University Name" } })
+                                @Html.ValidationMessageFor(model => model.SecondInstitute, "", new { @class = "text-danger" })
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+
+
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.AboutMe, htmlAttributes: new { @class = "control-label " })
+
+                            @Html.EditorFor(model => model.AboutMe, new { htmlAttributes = new { @class = "form-control",@placeholder="About You (Atleast  50 characters)" } })
+                            @Html.ValidationMessageFor(model => model.AboutMe, "", new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-md-4">
+
+                        <div class="form-group">
+                            <label>City :</label>
+
+                            @*@Html.DropDownList("cityId", null, "--select city--", htmlAttributes: new { @class = "form-control",@id= "cityid" })*@
+
+                            @Html.DropDownListFor(model=>model.CityId,ViewBag.cityId as SelectList,"--Select City--", new { @class= "form-control mySelect " })
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <input type="hidden"  id="areatextval" />
+                        <div class="form-group">
+                            <label>Areas Of City :</label>
+
+                            @Html.DropDownListFor(m=>m.CityAreas_id ,new SelectList("")
+                                ,"--Select Areas Of City", new { @class = "form-control selectarea",multiple="multiple"})
+
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.TutoringType, htmlAttributes: new { @class = "control-label  " })
+
+                            @Html.DropDownListFor(model => model.TutoringType, new[]{
+                           new SelectListItem() {Text="drop1", Value="drop1"},
+                             new SelectListItem() {Text="drop2", Value="drop2"},
+                               new SelectListItem() {Text="drop3", Value="drop3"}
+
+                      }, "Select Your TutoringType", new { @class= "form-control mySelect" })
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.SkypId, htmlAttributes: new { @class = "control-label" })
+
+                            @Html.EditorFor(model => model.SkypId, new { htmlAttributes = new { @class = "form-control", @placeholder = "Enter Skype ID" } })
+                            @Html.ValidationMessageFor(model => model.SkypId, "", new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+
+                            @Html.LabelFor(model => model.Expertise, htmlAttributes: new { @class = "control-label" })
+
+                            @Html.EditorFor(model => model.Expertise, new { htmlAttributes = new { @class = "form-control", @placeholder = "Sate one subject  e.g Chemistry ,Mathematics" } })
+                            @Html.ValidationMessageFor(model => model.Expertise, "", new { @class = "text-danger" })
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Picture to be Displayed</label>
+                            <input type="file" name="ImageFile" class="form-control" value="" />
+                        </div>
+
+
+
+                    </div>  
+
+                    </div>
+
+
+                
+
+
+
+
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Next" class="btn btn-default" />
+                    </div>
+                </div>
+
+            }
+
+        </div><!--END OF THE COL-->
+
+    </div><!--END OF THE ROW-->
+
+
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+        
+        $(document).ready(function () {
+
+
+          
+
+            $("#CityId").change(function () {
+
+
+                $.get("/Tutors/GetAreasList", { CityId: $("#CityId").val()}, function (data) {
+
+                    $("#CityAreas_id").empty();
+                    $.each(data, function (index, row) {
+
+                        $("#CityAreas_id").append("<option  value='" + row.Id + "'>" + row.Name + "</option>")
+
+                    });
+
+                });
+
+
+
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".mySelect").select2({
+                placeholder: ' --Select  an option--',
+               
+                allowClear: true,
+                theme: "classic"
+            });
+
+            $(".selectarea").select2({
+                placeholder: ' --Select  options--',
+                   
+                
+                
+                
+            });
+
+            
+            $(".selectarea").on("change", function () {
+
+                var areaId = $(this).val();
+
+                var tutorid = $('input[type="hidden"][name="TutorId"]').val();
+
+                
+
+                $("#areatextval").val(areaId);
+
+                var textboxvaluedata = $("#areatextval").val();
+
+                $.ajax({
+
+                    url: '/Tutors/Create/',
+
+                    @*url:@Url.Action("Tutors","areaSave"),*@
+
+                    data: {
+                        areaid: textboxvaluedata,
+                        //tutorid: tutorid
+                    },
+
+                    dataType: 'json',
+                    type: 'post',
+
+                });
+
+            });
+            
+        });
+    </script>
+
+}

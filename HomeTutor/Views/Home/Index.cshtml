@@ -1,0 +1,603 @@
+﻿@model HomeTutor.Models.SearchViewModel
+
+@{ 
+
+    List<SelectListItem> taughtlist = new List<SelectListItem>();
+
+    taughtlist.Add(new SelectListItem
+    {
+
+        Text = "Pre-Primary ",
+        Value = "Pre-Primary ",
+    });
+    
+    taughtlist.Add(new SelectListItem
+    {
+
+        Text = "Mosque School ",
+        Value = "Mosque School ",
+    });
+    taughtlist.Add(new SelectListItem
+    {
+
+        Text = "Primary ",
+        Value = "Primay",
+    });
+
+
+
+    taughtlist.Add(new SelectListItem
+    {
+
+        Text = "Middle ",
+        Value = "Middle",
+    });
+
+    taughtlist.Add(new SelectListItem
+    {
+
+        Text = "Secondary ",
+        Value = "Secondary",
+    });
+
+
+
+    taughtlist.Add(new SelectListItem
+    {
+
+        Text = "Intermdiate",
+        Value = "Intermdiate",
+    });
+
+    taughtlist.Add(new SelectListItem
+    {
+
+        Text = "O-level ",
+        Value = "O-level",
+    });
+    taughtlist.Add(new SelectListItem
+    {
+
+        Text = "A-level",
+        Value = "A-Level",
+    });
+
+    taughtlist.Add(new SelectListItem
+    {
+
+        Text = "Graduation",
+        Value = "Graduation",
+    });
+
+
+    taughtlist.Add(new SelectListItem
+    {
+
+        Text = "Test Preparations",
+        Value = "Test Preparations",
+    });
+
+
+
+
+
+
+
+}
+<ul class="side_nav">
+    <li><a class="active scroll" href="#home"></a></li>
+    <li><a class="scroll" href="#services"></a></li>
+    <li><a class="scroll" href="#about"></a></li>
+    <li><a class="scroll" href="#program"></a></li>
+    <li><a class="scroll" href="#team"></a></li>
+    <li><a class="scroll" href="#new"></a></li>
+    <li><a class="scroll" href="#gallery"></a></li>
+    <li><a class="scroll" href="#test"></a></li>
+    <li><a class="scroll" href="#contact"></a></li>
+</ul>
+
+
+<!--banner-->
+<div class="banner">
+    <div class="banner-top">
+
+        <div class="row">
+            <div class="col-md-10 frm">
+
+
+                @using (Html.BeginForm("Search","Home",FormMethod.Post))
+                {
+
+
+
+                    <div class="form-group">
+                        <p class="your-para">Select Your Study Level</p>
+
+                        @Html.DropDownListFor(model => model.LevelOfTaught, taughtlist, "--Select Level Of Taught--", new { @class = "form-control mySelect " })
+                    </div>
+                    <div class="form-group">
+                        <p class="your-para">Select Your City</p>
+
+                        @*@Html.DropDownList("cityId", null, "--select city--", htmlAttributes: new { @class = "form-control",@id= "cityid" })*@
+
+                        @Html.DropDownListFor(model => model.CityId, ViewBag.cityId as SelectList, "--Select City--", new { @class = "form-control mySelect " })
+
+                    </div>
+
+
+                    <input type="hidden" id="areatextval" />
+                    <div class="form-group">
+                        <p class="your-para">Select Your Area</p>
+
+                        @Html.DropDownListFor(m=>m.CityAreas_id  ,new SelectList("")
+                               ,"--Select Areas Of City", new { @class = "form-control   mySelect"})
+
+
+                    </div>
+                    <p class="your-para"> Select Your Subject</p>
+                    <div class="form-group">
+                        @Html.TextBoxFor(a=>a.Expertise ,null, new { @placeholder = "Select your subject", @class="form-control mySelect"})
+                       
+                    </div>
+
+
+
+                    <div class="form-group m-t-40">
+                        <input type="submit" name="name" value="Search" class="btn btn-primary btn-block" />
+
+                    </div>
+
+
+                }
+
+            </div><!--end of the col-->
+        </div> <!-- end of the row-->
+
+       
+    </div>
+</div>
+<svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+</svg>
+<!--start-services-->
+<div class="services" id="services">
+    <div class="container">
+
+        <h3 class="tittle">Services </h3>
+        <div class="box2">
+
+            <div class="row">
+                <div class="col-md-4 s-1">
+                    <a href="#">
+                        <div class="view view-fifth">
+                            <i class="glyphicon glyphicon-book"></i>
+                            <div class="mask">
+                                <h4>Vivamus moles tie gravida turpis</h4>
+                                <p>A wonderful serenity has taken possession of my entire soul,  I enjoy with my whole heart.</p>
+                                <p class="p2">A wonderful serenity has taken possession of my entire soul, I enjoy with my whole heart.</p>
+                            </div>
+                            <h3>Fusce lobort<br> iscoram</h3>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-4 s-2">
+                    <a href="#">
+                        <div class="view view-fifth">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                            <div class="mask">
+                                <h4>Vivamus moles tie gravida turpis</h4>
+                                <p>A wonderful serenity has taken possession of my entire soul,  I enjoy with my whole heart.</p>
+                                <p class="p2">A wonderful serenity has taken possession of my entire soul, I enjoy with my whole heart.</p>
+                            </div>
+                            <h3>Fusce lobort<br> iscoram</h3>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-4 s-3">
+                    <a href="#">
+                        <div class="view view-fifth">
+                            <i class="glyphicon glyphicon-paperclip"></i>
+                            <div class="mask">
+                                <h4>Vivamus moles tie gravida turpis</h4>
+                                <p>A wonderful serenity has taken possession of my entire soul,  I enjoy with my whole heart.</p>
+                                <p class="p2">A wonderful serenity has taken possession of my entire soul, I enjoy with my whole heart.</p>
+                            </div>
+                            <h3>Fusce lobort<br> iscoram</h3>
+                        </div>
+                    </a>
+
+                </div>
+                @*<div class="clearfix"></div>*@
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--end-about-->
+<!--about-->
+<!--about-->
+<div class="about" id="about">
+    <div class="container">
+        <h3 class="tittle ab">About Us</h3>
+        <div class="about-top">
+            <div class="row">
+                <div class="col-md-7 info">
+                    <h5>Why Choose Us ?</h5>
+                    <p>The ship set ground on the shore of this uncharted desert isle with Gilligan the Skipper too the millionaire and his wife. These days are all Happy and Free. These days are all share them with me. It's time to put on makeup. It's time to dress up right. It's time to raise the curtain on the Muppet Show tonight.</p>
+                    <section class="ac-container">
+                        <div>
+                            <input id="ac-1" name="accordion-1" type="checkbox" />
+                            <label for="ac-1">Lorem ipsum dolor sit amet</label>
+                            <article class="ac-small">
+                                <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.</p>
+                            </article>
+                        </div>
+                        <div>
+                            <input id="ac-2" name="accordion-1" type="checkbox" />
+                            <label for="ac-2">Lorem ipsum dolor sit amet</label>
+                            <article class="ac-medium">
+                                <p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+                            </article>
+                        </div>
+                        <div>
+                            <input id="ac-3" name="accordion-1" type="checkbox" />
+                            <label for="ac-3">Lorem ipsum dolor sit amet</label>
+                            <article class="ac-large">
+                                <p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man. </p>
+                            </article>
+                        </div>
+                        <div>
+                            <input id="ac-4" name="accordion-1" type="checkbox" />
+                            <label for="ac-4">Lorem ipsum dolor sit amet</label>
+                            <article class="ac-large">
+                                <p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <div class="ab-bottom">
+                        <h5>Who we are</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum.</p>
+                    </div>
+
+                </div>
+                <div class="col-md-5 ab-text">
+                    <img src="~/images/ab.jpg" alt="" />
+                    <div class="quote-author-info padding5">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority some lorem.</p>
+                        <div class="author-title"><span class="author-designation">Students,</span>Selena,Adaline</div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--//about-->
+
+<svg id="curveDownColor1" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+</svg>
+<!--//about-->
+<!--programs-->
+<!--team-starts-->
+<div class="team" id="team">
+    <div class="container">
+        <h3 class="tittle ab">Our Teachers</h3>
+        <div class="team-bottom">
+            <div class="col-md-3 team-left">
+                <a href="#">
+                    <img src="~/images/l1.jpg" alt="">
+                    <div class="captn">
+                        <h4>Jane Doe</h4>
+                        <p>Nam id urna ipsum</p>
+                    </div>
+                    <div class="team-text">
+                        <h5>Jane Doe</h5>
+                        <p>Nam id urna ipsum</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 team-left ">
+                <a href="#">
+                    <img src="~/images/l2.jpg" alt="">
+                    <div class="captn">
+                        <h4>Adaline</h4>
+                        <p>Nam id urna ipsum</p>
+                    </div>
+                    <div class="team-text">
+                        <h5>Adaline</h5>
+                        <p>Nam id urna ipsum</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 team-left ">
+                <a href="#">
+                    <img src="~/images/l3.jpg" alt="">
+                    <div class="captn">
+                        <h4>Selena</h4>
+                        <p>Nam id urna ipsum</p>
+                    </div>
+                    <div class="team-text">
+                        <h5>Selena</h5>
+                        <p>Nam id urna ipsum</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 team-left ">
+                <a href="#">
+                    <img src="~/images/l4.jpg" alt="">
+                    <div class="captn">
+                        <h4>Thomas</h4>
+                        <p>Nam id urna ipsum</p>
+                    </div>
+                    <div class="team-text">
+                        <h5>Thomas</h5>
+                        <p>Nam id urna ipsum</p>
+                    </div>
+                </a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<svg id="curveDownColor2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+</svg>
+<!--//team-end-->
+<!--start-news-->
+<div class="news-main" id="new">
+    <div class="container">
+        <h3 class="tittle two">Our News</h3>
+        <div class="news-article">
+            <div class="row">
+                <div class="col-md-6 article-post">
+                    <a href="#"><img src="~/images/n2.jpg" alt="img07" /></a>
+                    <div class="col-md-3 post-meta">
+                        <div class="meta-icon">
+                            <div class="pic">
+                                <a href="#"><i class="glyphicon glyphicon-picture"></i></a>
+                            </div>
+                        </div>
+                        <ul class="ad-info">
+                            <li>21 Sep'15</li>
+                            <li> <a href="#">Author</a></li>
+                            <li> <a href="#">24 Comments</a></li>
+                        </ul>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-md-9 post-details">
+                        <a href="#"><h3>Lorem Aliquam volutpat</h3></a>
+                        <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.</p>
+                        <div class="read">
+                            <a class="button" href="#"><img src="~/images/read.png" alt="" /></a>
+                        </div>
+
+                    </div>
+                    <!--post-details-->
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-6 article-post">
+                    <a href="#"><img src="~/images/n2.jpg" alt="img07" /></a>
+                    <div class="col-md-3 post-meta">
+                        <div class="meta-icon">
+                            <div class="pic">
+                                <a href="#"><i class="glyphicon glyphicon-picture"></i></a>
+                            </div>
+                        </div>
+                        <ul class="ad-info">
+                            <li>21 Oct'15</li>
+                            <li> <a href="#">Author</a></li>
+                            <li> <a href="#">24 Comments</a></li>
+                        </ul>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-md-9 post-details">
+                        <a href="#"><h3>Lorem Aliquam volutpat</h3></a>
+                        <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.</p>
+                        <div class="read">
+                            <a class="button" href="#"><img src="~/images/read.png" alt="" /></a>
+                        </div>
+
+                    </div>
+                    <!--post-details-->
+                    <div class="clearfix"> </div>
+                </div>
+
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="news-article second">
+            <div class="row">
+                <div class="col-md-6 article-post">
+                    <a href="#"><img src="~/images/n3.jpg" alt="img07" /></a>
+                    <div class="col-md-3 post-meta">
+                        <div class="meta-icon">
+                            <div class="pic">
+                                <a href="#"><i class="glyphicon glyphicon-picture"></i></a>
+                            </div>
+                        </div>
+                        <ul class="ad-info">
+                            <li>21 Sep'15</li>
+                            <li> <a href="#">Author</a></li>
+                            <li> <a href="#">24 Comments</a></li>
+                        </ul>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-md-9 post-details">
+                        <a href="#"><h3>Lorem Aliquam volutpat</h3></a>
+                        <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.</p>
+                        <div class="read">
+                            <a class="button" href="#"><img src="~/images/read.png" alt="" /></a>
+                        </div>
+
+                    </div>
+                    <!--post-details-->
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-6 article-post">
+                    <a href="#"><img src="~/images/n4.jpg" alt="img07" /></a>
+                    <div class="col-md-3 post-meta">
+                        <div class="meta-icon">
+                            <div class="pic">
+                                <a href="#"><i class="glyphicon glyphicon-picture"></i></a>
+                            </div>
+                        </div>
+                        <ul class="ad-info">
+                            <li>21 Oct'15</li>
+                            <li> <a href="#">Author</a></li>
+                            <li> <a href="#">24 Comments</a></li>
+                        </ul>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-md-9 post-details">
+                        <a href="#"><h3>Lorem Aliquam volutpat</h3></a>
+                        <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.</p>
+                        <div class="read">
+                            <a class="button" href="#"><img src="~/images/read.png" alt="" /></a>
+                        </div>
+
+                    </div>
+                    <!--post-details-->
+                    <div class="clearfix"> </div>
+                </div>
+
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!--start-gallery-->
+<div class="gallery" id="gallery">
+    <div class="container">
+        <h3 class="tittle">Gallery</h3>
+        <div class="top-gallery">
+            <div class="row">
+                <div class="col-md-4 gallery-grid gallery1">
+                    <a href="~/images/n4.jpg" class="swipebox">
+                        <img src="~/images/n4.jpg" class="img-responsive" alt="/">
+                        <div class="textbox">
+                            <h4>Tuition</h4>
+                            <p>Welcome</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-grid gallery1">
+                    <a href="~/images/n3.jpg" class="swipebox">
+                        <img src="~/images/n2.jpg" class="img-responsive" alt="/">
+                        <div class="textbox">
+                            <h4>Tuition</h4>
+                            <p>Welcome</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-grid gallery1">
+                    <a href="~/images/n5.jpg" class="swipebox">
+                        <img src="~/images/n5.jpg" class="img-responsive" alt="/">
+                        <div class="textbox">
+                            <h4>Tuition</h4>
+                            <p>Welcome</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-md-4 gallery-grid gallery1">
+                            <a href="~/images/n1.jpg" class="swipebox">
+                                <img src="~/images/n1.jpg" class="img-responsive" alt="/">
+                                <div class="textbox">
+                                    <h4>Tuition</h4>
+                                    <p>Welcome</p>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 gallery-grid gallery1">
+                            <a href="~/images/n3.jpg" class="swipebox">
+                                <img src="~/images/n3.jpg" class="img-responsive" alt="/">
+                                <div class="textbox">
+                                    <h4>Tuition</h4>
+                                    <p>Welcome</p>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 gallery-grid gallery1">
+                            <a href="~/images/n6.jpg" class="swipebox">
+                                <img src="~/images/n6.jpg" class="img-responsive" alt="/">
+                                <div class="textbox">
+                                    <h4>Tuition</h4>
+                                    <p>Welcome</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+        <!--//gallery-->
+        <!--start-testimonial-->
+
+
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+
+            <script>
+
+                $(document).ready(function () {
+
+
+
+
+                    $("#CityId").change(function () {
+
+
+                        $.get("/Tutors/GetAreasList", { CityId: $("#CityId").val() }, function (data) {
+
+                            $("#CityAreas_id").empty();
+                            $.each(data, function (index, row) {
+
+                                $("#CityAreas_id").append("<option  value='" + row.Id + "'>" + row.Name + "</option>")
+
+                            });
+
+                        });
+
+
+
+                    });
+                });
+            </script>
+
+
+            <script>
+        $(document).ready(function () {
+            $(".mySelect").select2({
+                placeholder: ' --Select  an option--',
+
+               
+                theme: "classic"
+            });
+
+            //$(".selectarea").select2({
+            //    placeholder: ' --Select  options--',
+            //});
+
+
+            
+        });
+            </script>
+
+        }

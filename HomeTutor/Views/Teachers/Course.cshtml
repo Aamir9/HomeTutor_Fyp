@@ -1,0 +1,19 @@
+﻿@model HomeTutor.Models.TeacherViewModel
+@{
+    ViewBag.Title = "Course";
+}
+
+<h2>Course</h2>
+
+@using (Html.BeginForm("Course", "Teachers", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.TextBoxFor(a => a.Expertise)
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Submit" class="btn btn-default" />
+        </div>
+    </div>
+
+
+}

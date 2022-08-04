@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link href="~/Content/swipebox.css" rel="stylesheet" />
+
+    <link href="~/Content/css/select2.min.css" rel="stylesheet" />
+    
+
+
+
+
+</head>
+<body>
+
+
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>*@
+
+
+   
+
+    <div class="header-section" id="home">
+        <div class="header-top">
+            <div class="container">
+                <div class="inner-head">
+                    <p class="col-md-4 mail"><i class="fa fa-envelope"></i><a href="mailto:info@example.com">HomeTutor.com</a></p>
+                    <p class="col-md-4 phone"><i class="fa fa-phone-square"></i>  +92 3441234567</p>
+                    <p class="col-md-4 location"><i class="fa fa-map-marker"></i> University Of Gujrat Lahore Campus</p>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="down"><a class="scroll" href="#about"><img src="images/down.png" alt="" /></a></div>
+        </div>
+
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg " style="background-color:rgb(48,176,187);">
+        <a class="navbar-brand" href="#">
+            <img src="~/images/ogo.png" height="40" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active ">
+                    @Html.ActionLink("Home", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link n-c" }) <span class="sr-only">(current)</span>
+                </li>
+
+                <li class="nav-item active ">
+                    @Html.ActionLink("Register as a Teacher", "Create", "Tutors", routeValues: null, htmlAttributes: new { @class = "nav-link n-c" }) <span class="sr-only">(current)</span>
+                </li>
+
+                @Html.Partial("_LoginPartial")
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <div class="">
+        @RenderBody()
+    </div>
+
+    <div id="contact" class="contact">
+        <div class="container">
+            <h3 class="tittle">Contact Us</h3>
+            <div class="row">
+                <div class="col-md-6 box">
+                    <!--contact-form-->
+                    <form>
+                        <p class="your-para">Your Name :</p>
+                        <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+                        <p class="your-para">Your Mail :</p>
+                        <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+                        <p class="your-para">Your Message :</p>
+                        <textarea cols="77" rows="6" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+
+                        <ul class="actions">
+                            <li><input type="submit" class="style1" value="Send" /></li>
+                            <li><input type="reset" class="style2" value="Reset" /></li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="col-md-6 contact-info">
+                    <h6>Lorem ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor.</h6>
+                    <p>Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, iece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <div class="con-text">
+                        <address>
+                            <strong>Twitter, Inc.</strong><br>
+                            795 Folsom Ave, Suite 600<br>
+                            San Francisco, CA 94107<br>
+                            <abbr title="Phone">P :</abbr> (123) 456-7890
+                        </address>
+                        <address>
+                            <strong>Full Name</strong><br>
+                            <a href="mailto:info@example.com">mail@example.com</a>
+                        </address>
+
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+
+
+    <div class="copy">
+        <p>&copy; 2016 Tuition. All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    <script src="~/Scripts/tmp/move-top.js"></script>
+    <script src="~/Scripts/tmp/easing.js"></script>
+    <script src="~/Scripts/tmp/jquery.swipebox.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 900);
+            });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $(".swipebox").swipebox();
+        });
+    </script>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+    <!--start-smooth-scrolling-->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!--start-smoth-scrolling-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                    containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+                };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+
+    <script src="~/Scripts/select2.min.js"></script>
+    @RenderSection("scripts", required: false)
+
+
+
+</body>
+</html>

@@ -1,0 +1,455 @@
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\ApplicationInsights.config
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\HomeTutor.dll.config
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\HomeTutor.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\HomeTutor.pdb
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\csc.exe
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\csc.exe.config
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\csc.rsp
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\csi.exe
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\csi.exe.config
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\csi.rsp
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.AppContext.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Console.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.IO.Compression.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Security.Claims.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.ValueTuple.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\vbc.exe
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\vbc.exe.config
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\vbc.rsp
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\VBCSCompiler.exe
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Antlr3.Runtime.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\EntityFramework.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\EntityFramework.SqlServer.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AI.Web.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Newtonsoft.Json.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Owin.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.Helpers.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.Mvc.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.Optimization.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.Razor.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.WebPages.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.WebPages.Razor.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\WebGrease.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.Helpers.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.Mvc.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.Optimization.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.Razor.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.WebPages.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Web.WebPages.Razor.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Newtonsoft.Json.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Antlr3.Runtime.pdb
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\EntityFramework.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\EntityFramework.SqlServer.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.AI.Web.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csprojAssemblyReference.cache
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csproj.CoreCompileInputs.cache
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csproj.CopyComplete
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.dll
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.pdb
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csproj.GenerateResource.cache
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add1.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add2.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add3.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add4.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.annotation.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add5.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add6.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city1.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city2.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city3.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add7.resources
+C:\Users\Atif Khan\source\repos\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add8.resources
+D:\HomeTutor\HomeTutor\bin\ApplicationInsights.config
+D:\HomeTutor\HomeTutor\bin\HomeTutor.dll.config
+D:\HomeTutor\HomeTutor\bin\HomeTutor.dll
+D:\HomeTutor\HomeTutor\bin\HomeTutor.pdb
+D:\HomeTutor\HomeTutor\bin\roslyn\csc.exe
+D:\HomeTutor\HomeTutor\bin\roslyn\csc.exe.config
+D:\HomeTutor\HomeTutor\bin\roslyn\csc.rsp
+D:\HomeTutor\HomeTutor\bin\roslyn\csi.exe
+D:\HomeTutor\HomeTutor\bin\roslyn\csi.exe.config
+D:\HomeTutor\HomeTutor\bin\roslyn\csi.rsp
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HomeTutor\HomeTutor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HomeTutor\HomeTutor\bin\roslyn\System.AppContext.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Collections.Immutable.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Console.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.IO.Compression.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.IO.FileSystem.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.IO.Pipes.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Reflection.Metadata.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Security.AccessControl.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Security.Claims.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Security.Principal.Windows.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.ValueTuple.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Xml.XPath.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HomeTutor\HomeTutor\bin\roslyn\vbc.exe
+D:\HomeTutor\HomeTutor\bin\roslyn\vbc.exe.config
+D:\HomeTutor\HomeTutor\bin\roslyn\vbc.rsp
+D:\HomeTutor\HomeTutor\bin\roslyn\VBCSCompiler.exe
+D:\HomeTutor\HomeTutor\bin\roslyn\VBCSCompiler.exe.config
+D:\HomeTutor\HomeTutor\bin\Antlr3.Runtime.dll
+D:\HomeTutor\HomeTutor\bin\EntityFramework.dll
+D:\HomeTutor\HomeTutor\bin\EntityFramework.SqlServer.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.AI.Agent.Intercept.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.AI.DependencyCollector.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.AI.Web.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.AI.WindowsServer.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.ApplicationInsights.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Google.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HomeTutor\HomeTutor\bin\Microsoft.Web.Infrastructure.dll
+D:\HomeTutor\HomeTutor\bin\Newtonsoft.Json.dll
+D:\HomeTutor\HomeTutor\bin\Owin.dll
+D:\HomeTutor\HomeTutor\bin\System.Diagnostics.DiagnosticSource.dll
+D:\HomeTutor\HomeTutor\bin\System.Web.Helpers.dll
+D:\HomeTutor\HomeTutor\bin\System.Web.Mvc.dll
+D:\HomeTutor\HomeTutor\bin\System.Web.Optimization.dll
+D:\HomeTutor\HomeTutor\bin\System.Web.Razor.dll
+D:\HomeTutor\HomeTutor\bin\System.Web.WebPages.Deployment.dll
+D:\HomeTutor\HomeTutor\bin\System.Web.WebPages.dll
+D:\HomeTutor\HomeTutor\bin\System.Web.WebPages.Razor.dll
+D:\HomeTutor\HomeTutor\bin\WebGrease.dll
+D:\HomeTutor\HomeTutor\bin\System.Web.Helpers.xml
+D:\HomeTutor\HomeTutor\bin\System.Web.Mvc.xml
+D:\HomeTutor\HomeTutor\bin\System.Web.Optimization.xml
+D:\HomeTutor\HomeTutor\bin\System.Web.Razor.xml
+D:\HomeTutor\HomeTutor\bin\System.Web.WebPages.xml
+D:\HomeTutor\HomeTutor\bin\System.Web.WebPages.Deployment.xml
+D:\HomeTutor\HomeTutor\bin\System.Web.WebPages.Razor.xml
+D:\HomeTutor\HomeTutor\bin\Newtonsoft.Json.xml
+D:\HomeTutor\HomeTutor\bin\Antlr3.Runtime.pdb
+D:\HomeTutor\HomeTutor\bin\EntityFramework.xml
+D:\HomeTutor\HomeTutor\bin\EntityFramework.SqlServer.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Google.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HomeTutor\HomeTutor\bin\System.Diagnostics.DiagnosticSource.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.AI.DependencyCollector.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.AI.WindowsServer.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.AI.Web.xml
+D:\HomeTutor\HomeTutor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csprojAssemblyReference.cache
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add1.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add2.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add3.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add4.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.annotation.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add5.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add6.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city1.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city2.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city3.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add7.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add8.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csproj.GenerateResource.cache
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csproj.CoreCompileInputs.cache
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csproj.CopyComplete
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.dll
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.pdb
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area1.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area2.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area3.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area4.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area5.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area6.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area7.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area8.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.remove.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add9.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add10.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add11.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add12.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add13.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add14.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add15.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add16.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add17.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add18.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add19.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add20.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add21.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add22.resources
+D:\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add23.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\ApplicationInsights.config
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\HomeTutor.dll.config
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\HomeTutor.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\HomeTutor.pdb
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\csc.exe
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\csc.exe.config
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\csc.rsp
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\csi.exe
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\csi.exe.config
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\csi.rsp
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.AppContext.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Collections.Immutable.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Console.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.IO.Compression.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.IO.FileSystem.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.IO.Pipes.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Reflection.Metadata.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Security.AccessControl.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Security.Claims.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.ValueTuple.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Xml.XPath.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\vbc.exe
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\vbc.exe.config
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\vbc.rsp
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\VBCSCompiler.exe
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\roslyn\VBCSCompiler.exe.config
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Antlr3.Runtime.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\EntityFramework.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\EntityFramework.SqlServer.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AI.DependencyCollector.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AI.Web.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AI.WindowsServer.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.ApplicationInsights.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Google.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Web.Infrastructure.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Newtonsoft.Json.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Owin.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.Helpers.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.Mvc.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.Optimization.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.Razor.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.WebPages.Deployment.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.WebPages.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.WebPages.Razor.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\WebGrease.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.Helpers.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.Mvc.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.Optimization.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.Razor.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.WebPages.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.WebPages.Deployment.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Web.WebPages.Razor.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Newtonsoft.Json.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Antlr3.Runtime.pdb
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\EntityFramework.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\EntityFramework.SqlServer.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Google.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AI.DependencyCollector.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AI.WindowsServer.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.AI.Web.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csprojAssemblyReference.cache
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add1.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add2.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add3.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add4.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.annotation.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add5.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add6.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city1.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city2.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.city3.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add7.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add8.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area1.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area2.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area3.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area4.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area5.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area6.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area7.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.area8.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.remove.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add9.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add10.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add11.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add12.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add13.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add14.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add15.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add16.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add17.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add18.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add19.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add20.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add21.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add22.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.Migrations.add23.resources
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csproj.GenerateResource.cache
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csproj.CoreCompileInputs.cache
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.csproj.CopyComplete
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.dll
+E:\Aamir\hometutor\HomeTutor\HomeTutor\obj\Debug\HomeTutor.pdb
